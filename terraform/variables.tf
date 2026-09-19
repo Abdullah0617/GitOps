@@ -55,5 +55,5 @@ variable "desired_size" {
 variable "s3_bucket" {
   description = "S3 bucket for Terraform state"
   type        = string
-  default     = "vprofile-eks-terraform-state"
+  default     = ""
 }
